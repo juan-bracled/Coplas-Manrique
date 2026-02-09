@@ -4,6 +4,8 @@
 \usepackage[paperwidth=17.00cm,paperheight=25.00cm,top=1.40cm,inner=1.95cm,outer=1.65cm,bottom=2.50cm]{geometry}
 \usepackage{polyglossia}
 \usepackage[breaklinks=true,hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{xurl}
 \usepackage{tikz}
 \usepackage[style=nncph,backend=biber,url=true]{biblatex}
 \addbibresource{bibliography.bib}
@@ -18,6 +20,7 @@
 %
 \setlength{\parindent}{0.6cm}
 \setlength{\bibhang}{0.6cm}
+\sloppy	
 %
 \usetikzlibrary{trees}
 %
@@ -201,11 +204,11 @@ Constituyen al aparato crítico el orden y rúbricas en los testimonios, el apar
 \printbibliography[heading=none]
 \newpage
 %
-\section*{\centering\textsc{Texto y aparato críticos}}
+\section*{\raggedleft\textsc{Texto y aparato críticos}}
 \addcontentsline{toc}{section}{\textsc{Texto y aparato críticos}}
 \newpage
 %
-\section*{\centering\textsc{Conspectus siglorum}}
+\section*{\raggedleft\textsc{Conspectus siglorum}}
 \addcontentsline{toc}{section}{\textsc{Conspectus siglorum}}
 %
 \subsection*{\normalsize\textsc{Sigla testimoniorum}}
